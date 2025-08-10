@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>3D Creator93 - Link</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+            background: 
+                linear-gradient(rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85)),
+                url('fcfe1912d7fa8b0129d416763765a21c~tplv-tiktokx-cropcenter_1080_1080.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid #25a8d7;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(37, 168, 215, 0.7);
+            background-color: #222;
+        }
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 28px;
+            text-shadow: 0 0 8px #25a8d7;
+        }
+        p {
+            margin: 0 0 30px 0;
+            font-size: 16px;
+            color: #ddd;
+            text-shadow: 0 0 6px #222;
+        }
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #222;
+            color: white;
+            padding: 16px;
+            margin: 12px auto;
+            border-radius: 14px;
+            text-decoration: none;
+            font-size: 20px;
+            width: 85%;
+            max-width: 350px;
+            transition: transform 0.2s ease, background-color 0.3s ease;
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        }
+        .link-btn img {
+            width: 30px;
+            height: 30px;
+            margin-right: 12px;
+        }
+        .link-btn:hover {
+            transform: scale(1.05);
+            background-color: #25a8d7;
+            box-shadow: 0 0 20px #25a8d7;
+        }
+        .instagram {
+            background-color: #e1306c;
+            box-shadow: 0 0 10px #e1306c;
+        }
+        .instagram:hover {
+            background-color: #bf2b5c;
+            box-shadow: 0 0 20px #bf2b5c;
+        }
+        .tiktok {
+            background-color: #010101;
+            box-shadow: 0 0 10px #fff;
+            color: white;
+        }
+        .tiktok:hover {
+            background-color: #1d1d1d;
+            box-shadow: 0 0 20px #fff;
+        }
+        .whatsapp {
+            background-color: #25d366;
+            color: black;
+            box-shadow: 0 0 10px #25d366;
+        }
+        .whatsapp:hover {
+            background-color: #1ebe57;
+            box-shadow: 0 0 20px #1ebe57;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+  
+  <h1>🌟 3D Creator93 🌟</h1>
+    <p>Seguimi sui miei social e contattami su WhatsApp!</p>
+
+  <a class="link-btn instagram" href="https://www.instagram.com/3d_creator93/?hl=it" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+        Instagram
+    </a>
+
+   <a class="link-btn tiktok" href="https://www.tiktok.com/@3d_creator93" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok" />
+        TikTok
+    </a>
+
+  <a class="link-btn whatsapp" href="https://wa.me/393271303819" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+        WhatsApp
+    </a>
+</body>
+</html>
